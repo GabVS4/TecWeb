@@ -116,3 +116,5 @@ arraySoma = sumArrays(arrayRepetidos, arrayRepetidos3);
 console.log(arraySoma);
 
 //Questao 10
+const mergeArrays = (vetorPilha, vetorAdiciona) => [...vetorPilha, ...vetorAdiciona];
+console.log(`${mergeArrays([1, 2, 3, 4, 5], [6, 7, 8, 9, 10])}`);
